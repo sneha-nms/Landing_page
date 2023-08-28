@@ -1,0 +1,143 @@
+body{
+    /* overflow: hidden; */
+    background-image: url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* height: 100%;
+    width: 100%; */
+}
+
+    .img-computer{
+        height: 30%;
+        width: 50%;
+        /* align-items: center;
+        justify-content: center; */
+       
+    }
+    h3,h2,h1,#head1{
+        font-size: 30px;
+        font-family: 'Bai Jamjuree';
+        color:  hsl(210, 10%, 33%);
+    }
+
+.button1{
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 135px;
+    height: 34px;
+    border: none;
+}
+.button2{
+    background-color:hsl(233, 100%, 69%);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 135px;
+    height: 34px;
+    border: none;
+    /* box-shadow: 0px; */
+}
+.container1{
+   text-align: center;
+   padding: 100px;
+}
+p{
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    font-family: 'Bai Jamjuree';
+}
+/* .container2{
+    padding: 70px;
+} */
+.container3{
+    /* position: relative;
+    top: -128px; */
+    display: flex;
+   
+    gap: 135px;
+
+}
+
+.container5{
+    text-align: center;
+}
+
+   
+.img-device{
+    width: 65%;
+
+
+}
+.total-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 147px;
+}
+.container6{
+    text-align: center;
+}
+.total-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.last{
+    text-align: center;
+    margin-top: 110px;
+} 
+.logo{
+    margin-top: 20px;
+    margin-left: 248px;
+}
+.footer{
+    display:flex ;
+    margin-top: 80px;
+    background-color: rgb(209, 218, 226);
+}
+.low{
+    margin-left: 90px;
+}
+.total-icon{
+    gap: 30px;
+    margin-left: 20px;
+}
+
+@media (max-width:600px) {
+    body{
+        background-color: aquamarine;
+    }
+    .img-computer {
+        height: 97%;
+        margin: auto;
+        width: 79%;
+    }
+    .container3{
+        display: grid;
+    }
+    .total-icon{
+        display: grid;
+        margin: 0px;
+    }
+    .total-img{
+        display: grid;
+        gap: 87px;
+    }
+    .footer{
+        display: grid;
+        justify-content: center;
+    }
+    .logo{
+        margin: auto;
+    }
+    .low{
+        margin-left: 31px;
+    }
+    .container4{
+        margin: auto;
+    }
+    
+}
